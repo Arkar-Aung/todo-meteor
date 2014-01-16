@@ -1,6 +1,6 @@
 todo-meteor
 ===========
-Todo-meteor is a tiny application which is created with meteorjs and bootstrap.
+Todo-meteor is a tiny todo application which is created with meteorjs and bootstrap.
 This app use meteorite package.
 
 Meteorite package
