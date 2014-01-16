@@ -1,0 +1,12 @@
+<template name="layout">
+	<head>
+	<title>Todo</title>
+	<div class="container">
+		{{> header}}
+		<div id="main" class="row-fluid">
+			{{yield}}
+		</div>
+		{{> footer}}
+	</div>
+	</head>
+</template>

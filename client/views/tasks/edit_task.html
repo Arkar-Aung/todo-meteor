@@ -1,0 +1,8 @@
+<template name="editTask">
+	<form class="form-horizontal" role="form" id="edit-task">
+	    <input type="text" name="name" class="input-large" value="{{task.name}}">
+	    <input type="hidden" name="_id" value="{{task._id}}">
+	    <button type="submit" class="btn btn-primary btn-mini update"><i class="icon-plus icon-white"></i>Edit</button>
+	    <button type="button" class="btn btn-default btn-mini cancel"><i class="icon-minus"></i>Cancel</button>
+	</form>
+</template>

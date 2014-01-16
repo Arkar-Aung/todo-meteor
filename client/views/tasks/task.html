@@ -1,0 +1,14 @@
+<template name="task">
+	<tr>
+		<td>
+			<label for="{{_id}}" class="checkbox {{finished}}">
+				<input type="checkbox" name="checker" id="{{_id}}" {{checked}}>
+				{{name}}
+				{{#unless done}}
+					<span class="pull-right delete" title="delete"><i class="icon-trash"></i></span>
+					<span class="pull-right edit" title="edit"><i class="icon-pencil"></i></span>
+				{{/unless}}
+			</label>
+		</td>
+	</tr>
+</template>
